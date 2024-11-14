@@ -37,40 +37,27 @@ Se requiere definir y documentar los casos de prueba para verificar el correcto 
 
 ## Entregable
 
-### Casos de prueba para el frontend (interfaz de usuario):
+### Casos de prueba
 
-- **Campo de email:**
-  - **Caso de prueba para la validación de formato de email:** Validar que el campo sólo reciba una dirección de correo electrónico válida.
-  - **Caso de prueba para campos vacíos:** Validar que el sistema muestre un error si el email está vacío.
+#### Verificación de credenciales
+- **Caso de prueba para autenticación con credenciales válidas:** Verificar que el usuario pueda iniciar sesión con las credenciales correctas.
+- **Caso de prueba para autenticación con credenciales incorrectas:** Verificar que el sistema muestre un mensaje de error adecuado si las credenciales no son correctas.
 
-- **Campo de contraseña:**
-  - **Caso de prueba para la validación de contraseña:** Comprobar que el sistema permite contraseñas de longitud y complejidad adecuadas.
-  - **Caso de prueba para campos vacíos:** Verificar que se muestra un mensaje de error si la contraseña está vacía.
+#### Generación de tokens
+- **Caso de prueba para la generación y validez del token JWT:** Verificar que se genere un token válido tras la autenticación exitosa y que caduque cuando sea necesario.
 
-- **Botón de login:**
-  - **Caso de prueba para el comportamiento del botón:** Verificar que el botón de login sólo esté habilitado cuando los campos están completos y correctos.
+#### Autenticación con Google OAuth2
+- **Caso de prueba para el flujo de autenticación con Google:** Verificar que el usuario pueda iniciar sesión usando su cuenta de Google y que el sistema reciba la respuesta adecuada.
+- **Caso de prueba para la respuesta errónea de OAuth2:** Verificar que el sistema maneje correctamente los errores si hay problemas con la autenticación de Google.
 
-### Casos de prueba para el backend (autenticación):
+### Casos de prueba de usabilidad
 
-- **Verificación de credenciales:**
-  - **Caso de prueba para autenticación con credenciales válidas:** Verificar que el usuario pueda iniciar sesión con las credenciales correctas.
-  - **Caso de prueba para autenticación con credenciales incorrectas:** Verificar que el sistema muestre un mensaje de error adecuado si las credenciales no son correctas.
+#### Mensajes de error y éxito
+- **Caso de prueba para la claridad de los mensajes:** Verificar que los mensajes de error sean claros y útiles para el usuario, por ejemplo, "Usuario o contraseña incorrectos".
+- **Caso de prueba para la confirmación de login exitoso:** Verificar que, tras un login exitoso, el usuario vea un mensaje claro que lo indique.
 
-- **Generación de tokens:**
-  - **Caso de prueba para la generación y validez del token JWT:** Verificar que se genere un token válido tras la autenticación exitosa y que caduque cuando sea necesario.
+En el siguiente apartado, podrá encontrar los casos de prueba realizados hasta la fecha en [Miro](https://miro.com/app/board/uXjVLHLyKvA=/?moveToWidget=3458764606868436391&cot=10).
 
-- **Autenticación con Google OAuth2:**
-  - **Caso de prueba para el flujo de autenticación con Google:** Verificar que el usuario pueda iniciar sesión usando su cuenta de Google y que el sistema reciba la respuesta adecuada.
-  - **Caso de prueba para la respuesta errónea de OAuth2:** Verificar que el sistema maneje correctamente los errores si hay problemas con la autenticación de Google.
-
-### Casos de prueba de usabilidad:
-
-- **Mensajes de error y éxito:**
-  - **Caso de prueba para la claridad de los mensajes:** Verificar que los mensajes de error sean claros y útiles para el usuario, por ejemplo, "Usuario o contraseña incorrectos".
-  - **Caso de prueba para la confirmación de login exitoso:** Verificar que, tras un login exitoso, el usuario vea un mensaje claro que lo indique.
-
-- **Accesibilidad:**
-  - **Caso de prueba para la accesibilidad de los formularios de login:** Verificar que los formularios sean accesibles para usuarios con discapacidades, como el uso de lectores de pantalla.
 
 ---
 
