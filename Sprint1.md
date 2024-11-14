@@ -44,15 +44,7 @@ La tabla `sessions` gestiona las sesiones de los usuarios. Almacena la informaci
 - **sessiontoken**: Token único que identifica la sesión. Este valor no puede ser nulo y debe ser único en la tabla.
 - **createdat**: Timestamp que indica cuándo se creó la sesión. Se asigna automáticamente si no se especifica.
 - **expiresat**: Fecha y hora de expiración de la sesión. Este valor es obligatorio.
-
-## Creación de la base de datos
-
-Con base en el diseño y las tablas descritas, se crea y configura la base de datos en PostgreSQL para registrar el logueo de usuarios y gestionar sus sesiones.
-
-## Conclusión
-
-Se ha configurado correctamente la base de datos con las tablas `users` y `sessions`, asegurando que se gestionen adecuadamente los datos de los usuarios y las sesiones activas. Además, se ha implementado la opción de eliminación en cascada en la tabla `sessions` para mantener la integridad referencial.
-
+  
 ---
 
 # [Tarea 3: Backend de Autenticación](https://miro.com/app/board/uXjVLHLyKvA=/?openCardPanel=3458764606715665039)
