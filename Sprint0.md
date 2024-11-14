@@ -77,48 +77,25 @@ Evaluar el tamaño y crecimiento potencial del mercado de aplicaciones de autent
 # [Tarea 4: Tecnología de Logueo Back](https://miro.com/app/board/uXjVLHLyKvA=/?openCardPanel=3458764606333874361)
 
 ## Objetivo
-Evaluar el tamaño y crecimiento potencial del mercado de aplicaciones de autenticación y logueo, entendiendo las tendencias de adopción de tecnologías de seguridad, las necesidades de los usuarios y las oportunidades de expansión en distintos sectores. Este análisis permitirá identificar oportunidades clave para mejorar y expandir la app de logueo y adaptarla a las necesidades de un mercado en crecimiento.
+Se requiere definir las tecnologías del backend a utilizar teniendo en cuenta el alcance y que se desea crear una app de logueo para una empresa de transporte, gestión de usuarios, generalización de tokens, OAuth2, conexiones con Google.
 
 ## Entregable
-
-### Proyecciones de Crecimiento del Mercado
-- Según un informe de **Markets and Markets**, el mercado global de la autenticación multifactor está proyectado a alcanzar los **USD 24,8 mil millones para 2025**, con un crecimiento anual compuesto (CAGR) de 15,4% desde 2020.
-- Estudios de crecimiento en **tecnologías de ciberseguridad** indicaron un incremento en la inversión en autenticación en la nube, que representa un área clave para la expansión de apps de logueo.
-
-### Análisis de Oportunidades de Innovaciones Tecnológicas
-- Se recogió información sobre tendencias emergentes, como el uso de **blockchain** para mejorar la seguridad del logueo, la integración con **redes sociales** para simplificar el proceso de registro, y el uso de **inteligencia artificial** para detectar intentos de fraude.
-- Informes sobre la implementación de **autenticación sin contraseña**, que está ganando tracción como una opción más segura y conveniente.
-
-### Segmentación de Mercado
-- **Usuarios Individuales**: El 56% de los usuarios de internet en Norteamérica y Europa utilizan autenticación multifactor para proteger sus cuentas bancarias en línea, según un estudio de **Cybersecurity Ventures**.
-- **Empresas y Organizaciones**: Según **IDC**, el 83% de las empresas están implementando soluciones de autenticación avanzada debido al aumento de ciberataques.
-
-### Oportunidades de Expansión
-- La expansión hacia nuevos mercados en **Asia y África**, donde la adopción de soluciones de seguridad está en auge debido a un aumento en las transacciones móviles y la digitalización de servicios financieros.
+Se ha decidido utilizar Node.js con el framework Express debido a su alto rendimiento, gracias a su base en el motor V8 de Chrome. Esto permite una ejecución rápida del código JavaScript, ideal para manejar múltiples conexiones simultáneas sin bloquear el hilo principal. Además, Express facilita la creación de APIs RESTful para gestionar la autenticación de usuarios, la integración con Google mediante OAuth2 y la administración de tokens de sesión de manera segura.
 
 ---
 
 # [Tarea 5: Tecnología de Logueo Front](https://miro.com/app/board/uXjVLHLyKvA=/?openCardPanel=3458764606333874383)
 
 ## Objetivo
-Evaluar el tamaño y crecimiento potencial del mercado de aplicaciones de autenticación y logueo, entendiendo las tendencias de adopción de tecnologías de seguridad, las necesidades de los usuarios y las oportunidades de expansión en distintos sectores. Este análisis permitirá identificar oportunidades clave para mejorar y expandir la app de logueo y adaptarla a las necesidades de un mercado en crecimiento.
+Se requiere definir las tecnologías del frontend a utilizar teniendo en cuenta el alcance y que se desea crear una app de logueo para una empresa de transporte, gestión de usuarios, generalización de tokens, OAuth2, conexiones con Google.
 
 ## Entregable
 
-### Proyecciones de Crecimiento del Mercado
-- Según un informe de **Markets and Markets**, el mercado global de la autenticación multifactor está proyectado a alcanzar los **USD 24,8 mil millones para 2025**, con un crecimiento anual compuesto (CAGR) de 15,4% desde 2020.
-- Estudios de crecimiento en **tecnologías de ciberseguridad** indicaron un incremento en la inversión en autenticación en la nube, que representa un área clave para la expansión de apps de logueo.
-
-### Análisis de Oportunidades de Innovaciones Tecnológicas
-- Se recogió información sobre tendencias emergentes, como el uso de **blockchain** para mejorar la seguridad del logueo, la integración con **redes sociales** para simplificar el proceso de registro, y el uso de **inteligencia artificial** para detectar intentos de fraude.
-- Informes sobre la implementación de **autenticación sin contraseña**, que está ganando tracción como una opción más segura y conveniente.
-
-### Segmentación de Mercado
-- **Usuarios Individuales**: El 56% de los usuarios de internet en Norteamérica y Europa utilizan autenticación multifactor para proteger sus cuentas bancarias en línea, según un estudio de **Cybersecurity Ventures**.
-- **Empresas y Organizaciones**: Según **IDC**, el 83% de las empresas están implementando soluciones de autenticación avanzada debido al aumento de ciberataques.
-
-### Oportunidades de Expansión
-- La expansión hacia nuevos mercados en **Asia y África**, donde la adopción de soluciones de seguridad está en auge debido a un aumento en las transacciones móviles y la digitalización de servicios financieros.
+Se han considerado las siguientes tecnologías para el frontend de la aplicación de logueo, con el objetivo de asegurar una interfaz eficiente, fácil de usar y escalable:
+- **HTML5 y CSS3:** Estas tecnologías se utilizan para estructurar y diseñar la interfaz de usuario de manera semántica, asegurando accesibilidad y compatibilidad con todos los navegadores modernos. HTML5 también permite un mejor manejo de formularios y entradas de usuario, lo cual es fundamental para el proceso de autenticación.
+- **JavaScript:** Se empleará JavaScript para agregar interactividad a la interfaz, validación de formularios en el lado del cliente (como la validación de campos de usuario y contraseña) y para interactuar con las APIs del backend. Esto optimiza la experiencia del usuario al ofrecer respuestas rápidas sin necesidad de recargar la página.
+- **React:** React se seleccionó por su capacidad para crear interfaces de usuario dinámicas y altamente interactivas. Su enfoque basado en componentes permite una gestión eficiente del estado de la aplicación, lo cual es crucial para manejar el flujo de usuarios autenticados y no autenticados. Además, facilita la actualización en tiempo real del estado de la UI durante la autenticación.
+- **Bootstrap:** Esta biblioteca se usará para implementar rápidamente un diseño responsivo y atractivo en la interfaz. Bootstrap agiliza la creación de elementos visuales como botones, formularios y barras de navegación, garantizando que la app sea accesible desde dispositivos móviles y escritorios sin mucho esfuerzo de diseño.
 
 ---
 
