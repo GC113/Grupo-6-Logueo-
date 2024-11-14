@@ -21,7 +21,9 @@ Llegamos al diseño de utilizar la siguiente interfaz en [Miro](https://miro.com
 
 Se requiere crear y configurar la base de datos para la app de autenticación de usuarios en PostgreSQL, asegurando la correcta gestión de los datos de los usuarios y sus sesiones.
 
-## Tablas
+## Entregable
+Se crea base de datos en PostgreSQL para registrar el logeo de usuarios.
+En base al diseño:
 
 ### Tabla `users`
 
